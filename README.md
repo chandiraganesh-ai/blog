@@ -2,4 +2,4 @@
 
 A sample static blog hosted on GitHub Pages.
 
-Site: https://chandiraganesh-ai.github.io/blog/
+Site: https://farmtofork.co.in
