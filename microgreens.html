@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Are Microgreens? | Benefits of Microgreens</title>
+  <meta name="description" content="Learn what microgreens are, how they differ from sprouts, and the health and kitchen benefits of adding them to your daily meals.">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green-dark: #1f4d2b;
+      --green: #2f7d45;
+      --green-light: #e8f3ea;
+      --cream: #fbfaf5;
+      --text: #24302a;
+      --muted: #5b6b61;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      color: var(--text);
+      background: var(--cream);
+      line-height: 1.7;
+    }
+    h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; color: var(--green-dark); line-height: 1.25; }
+    .container { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, var(--green-dark), var(--green));
+      color: #fff;
+      padding: 90px 0 80px;
+      text-align: center;
+    }
+    .hero h1 { color: #fff; font-size: clamp(2.2rem, 5vw, 3.4rem); margin-bottom: 16px; }
+    .hero p { font-size: 1.15rem; max-width: 640px; margin: 0 auto 28px; opacity: .92; }
+    .btn {
+      display: inline-block; background: #fff; color: var(--green-dark);
+      padding: 12px 28px; border-radius: 40px; font-weight: 600; text-decoration: none;
+      transition: transform .2s;
+    }
+    .btn:hover { transform: translateY(-2px); }
+
+    section { padding: 70px 0; }
+    section h2 { font-size: clamp(1.7rem, 3.5vw, 2.3rem); margin-bottom: 18px; text-align: center; }
+    .lead { max-width: 720px; margin: 0 auto 40px; text-align: center; color: var(--muted); font-size: 1.08rem; }
+
+    /* What are microgreens */
+    .intro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+    .card {
+      background: #fff; border-radius: var(--radius); padding: 28px;
+      box-shadow: 0 4px 18px rgba(31,77,43,.07);
+    }
+    .card h3 { font-size: 1.25rem; margin-bottom: 8px; }
+    .card p { color: var(--muted); }
+    .icon { font-size: 2rem; margin-bottom: 10px; }
+
+    /* Comparison */
+    .compare { background: var(--green-light); }
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: var(--radius); overflow: hidden; }
+    th, td { padding: 14px 18px; text-align: left; border-bottom: 1px solid #e4ece6; }
+    th { background: var(--green); color: #fff; font-weight: 600; }
+    tr:last-child td { border-bottom: none; }
+    .table-wrap { overflow-x: auto; }
+
+    /* Benefits */
+    .benefits { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+    .benefit { display: flex; gap: 16px; background: #fff; padding: 24px; border-radius: var(--radius); box-shadow: 0 4px 18px rgba(31,77,43,.06); }
+    .benefit .num {
+      flex-shrink: 0; width: 42px; height: 42px; border-radius: 50%;
+      background: var(--green); color: #fff; display: grid; place-items: center; font-weight: 600;
+    }
+    .benefit h3 { font-size: 1.12rem; margin-bottom: 4px; }
+    .benefit p { color: var(--muted); font-size: .97rem; }
+
+    /* Popular varieties */
+    .varieties { background: var(--green-light); }
+    .chips { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+    .chip { background: #fff; padding: 10px 20px; border-radius: 40px; font-weight: 500; color: var(--green-dark); box-shadow: 0 2px 8px rgba(31,77,43,.06); }
+
+    /* How to use */
+    .uses { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; text-align: center; }
+    .uses .card h3 { font-size: 1.08rem; }
+
+    /* CTA & footer */
+    .cta { background: var(--green-dark); color: #fff; text-align: center; }
+    .cta h2 { color: #fff; }
+    .cta p { opacity: .9; max-width: 600px; margin: 0 auto 26px; }
+    footer { text-align: center; padding: 26px; color: var(--muted); font-size: .9rem; }
+    .note { font-size: .85rem; color: var(--muted); text-align: center; margin-top: 24px; }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Small Greens, Big Nutrition</h1>
+      <p>Microgreens are young, tender greens packed with flavour, colour and nutrients. Here's what they are and why they deserve a place on your plate.</p>
+      <a href="#benefits" class="btn">Explore the Benefits</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- What are microgreens -->
+    <section id="what">
+      <div class="container">
+        <h2>What Are Microgreens?</h2>
+        <p class="lead">Microgreens are the young seedlings of vegetables and herbs, harvested just 7 to 21 days after germination, once the first true leaves appear. They are usually 2–8 cm tall and are cut just above the soil line.</p>
+        <div class="intro-grid">
+          <div class="card">
+            <div class="icon">🌱</div>
+            <h3>Harvested Young</h3>
+            <p>Picked at the seedling stage, when the plant is putting its energy into fresh, tender growth.</p>
+          </div>
+          <div class="card">
+            <div class="icon">☀️</div>
+            <h3>Grown in Light</h3>
+            <p>Unlike sprouts, microgreens grow in soil or a growing mat with sunlight, so they develop real leaves and colour.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🥗</div>
+            <h3>Intense Flavour</h3>
+            <p>Each variety carries a concentrated taste of its mature plant — peppery radish, sweet pea, zesty mustard.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="compare">
+      <div class="container">
+        <h2>Sprouts vs Microgreens vs Mature Greens</h2>
+        <p class="lead">Microgreens sit between sprouts and full-grown vegetables.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th></th><th>Sprouts</th><th>Microgreens</th><th>Mature Greens</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>Harvest time</strong></td><td>2–5 days</td><td>7–21 days</td><td>40+ days</td></tr>
+              <tr><td><strong>Grown in</strong></td><td>Water, no light</td><td>Soil or mat, with light</td><td>Soil, field or garden</td></tr>
+              <tr><td><strong>Part eaten</strong></td><td>Seed, root &amp; shoot</td><td>Stem &amp; first leaves</td><td>Leaves (and more)</td></tr>
+              <tr><td><strong>Flavour</strong></td><td>Mild</td><td>Intense, concentrated</td><td>Full, familiar</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits">
+      <div class="container">
+        <h2>Benefits of Microgreens</h2>
+        <p class="lead">A small handful adds nutrition, flavour and freshness to almost any meal.</p>
+        <div class="benefits">
+          <div class="benefit">
+            <div class="num">1</div>
+            <div>
+              <h3>Nutrient-Dense</h3>
+              <p>Studies have found that many microgreens contain higher concentrations of vitamins such as C, E and K, and carotenoids, than the same weight of their mature leaves.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="num">2</div>
+            <div>
+              <h3>Rich in Antioxidants</h3>
+              <p>They are a good source of polyphenols and other antioxidants that help protect the body's cells from oxidative stress.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="num">3</div>
+            <div>
+              <h3>Supports a Healthy Diet</h3>
+              <p>Low in calories and high in fibre and micronutrients, they make it easy to eat more vegetables every day.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="num">4</div>
+            <div>
+              <h3>Fresh &amp; Local</h3>
+              <p>Grown in days and harvested close to when you eat them, microgreens reach your plate at peak freshness.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="num">5</div>
+            <div>
+              <h3>Easy to Grow at Home</h3>
+              <p>All you need is a tray, some soil and a sunny windowsill — perfect for balconies and small apartments.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="num">6</div>
+            <div>
+              <h3>Sustainable</h3>
+              <p>They need far less water, space and time than full-grown crops, making them an eco-friendly choice.</p>
+            </div>
+          </div>
+        </div>
+        <p class="note">Microgreens are a healthy addition to a balanced diet, not a replacement for medical advice or treatment.</p>
+      </div>
+    </section>
+
+    <!-- Varieties -->
+    <section class="varieties">
+      <div class="container">
+        <h2>Popular Varieties</h2>
+        <p class="lead">Each one brings its own colour and taste.</p>
+        <div class="chips">
+          <span class="chip">Sunflower</span>
+          <span class="chip">Pea Shoots</span>
+          <span class="chip">Radish</span>
+          <span class="chip">Mustard</span>
+          <span class="chip">Broccoli</span>
+          <span class="chip">Red Cabbage</span>
+          <span class="chip">Beetroot</span>
+          <span class="chip">Fenugreek (Methi)</span>
+          <span class="chip">Coriander</span>
+          <span class="chip">Basil</span>
+          <span class="chip">Amaranth</span>
+          <span class="chip">Wheatgrass</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to use -->
+    <section>
+      <div class="container">
+        <h2>How to Enjoy Them</h2>
+        <p class="lead">No cooking needed — just rinse, snip and add.</p>
+        <div class="uses">
+          <div class="card"><div class="icon">🥪</div><h3>Sandwiches &amp; Wraps</h3></div>
+          <div class="card"><div class="icon">🥤</div><h3>Smoothies &amp; Juices</h3></div>
+          <div class="card"><div class="icon">🍳</div><h3>Omelettes &amp; Parathas</h3></div>
+          <div class="card"><div class="icon">🍲</div><h3>Soups, Dals &amp; Garnish</h3></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container">
+        <h2>Add a Little Green to Every Meal</h2>
+        <p>Fresh microgreens bring nutrition, flavour and colour to your kitchen. Get in touch to know more.</p>
+        <a href="#" class="btn">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Your Brand Name. All rights reserved.
+  </footer>
+
+</body>
+</html>
